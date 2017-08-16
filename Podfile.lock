@@ -7,15 +7,16 @@ PODS:
 
 DEPENDENCIES:
   - Stencil
-  - StencilSwiftKit (from `https://github.com/SwiftGen/StencilSwiftKit`)
+  - StencilSwiftKit (from `https://github.com/SwiftGen/StencilSwiftKit`, branch `feature/basename-filter`)
 
 EXTERNAL SOURCES:
   StencilSwiftKit:
+    :branch: feature/basename-filter
     :git: https://github.com/SwiftGen/StencilSwiftKit
 
 CHECKOUT OPTIONS:
   StencilSwiftKit:
-    :commit: 695b6bfd3f0f54cec5b96d65783f98c3edd9a81c
+    :commit: a76ad12ca0b46bbb0e4ad55d332d1ba00fb7cd3c
     :git: https://github.com/SwiftGen/StencilSwiftKit
 
 SPEC CHECKSUMS:
@@ -23,6 +24,6 @@ SPEC CHECKSUMS:
   Stencil: 510f0b0518a366b67b6a9c5085a0399741b6d2f9
   StencilSwiftKit: b7f4de5ecd88c484713883d83968da8b6cc3ff97
 
-PODFILE CHECKSUM: 910aa7b4b6bcbe527b3b6800c8fe6bc374027140
+PODFILE CHECKSUM: aa5cbd70b9d9dd481ee544615e82b035256205b0
 
 COCOAPODS: 1.3.1
